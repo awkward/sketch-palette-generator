@@ -1,0 +1,21 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Palette generator",
+      "identifier": "main",
+      "script": "index.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "main"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "",
+  "name": "react-sketch-palette-generator",
+  "disableCocoaScriptPreprocessor": true
+}

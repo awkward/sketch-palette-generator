@@ -1,0 +1,29 @@
+{
+  "name": "react-sketch-palette-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "react-sketch-palette-generator.sketchplugin",
+  "manifest": "src/manifest.json",
+  "scripts": {
+    "build": "skpm build",
+    "watch": "skpm build --watch",
+    "render": "skpm build --watch --run",
+    "render:once": "skpm build --run",
+    "link-plugin": "skpm link"
+  },
+  "author": "Timon van Spronsen <timonvanspronsen@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^1.2.2",
+    "skpm": "^0.8.0"
+  },
+  "dependencies": {
+    "chroma-js": "^1.2.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.4.2",
+    "react-sketchapp": "^0.10.0",
+    "react-test-renderer": "^15.4.2"
+  }
+}
