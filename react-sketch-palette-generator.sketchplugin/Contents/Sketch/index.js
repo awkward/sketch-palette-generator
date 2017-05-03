@@ -9630,11 +9630,16 @@ var Document = function Document(_ref4) {
       name: 'Swatches',
       style: {
         flexDirection: 'row',
-        flexWrap: 'wrap',
-        width: 360
+        flexWrap: 'wrap'
       }
     },
-    _react2['default'].createElement(Palette, { name: 'Red', mainColorKey: '500', colors: palettes['Red'] })
+    Object.keys(palettes).map(function (paletteName, i) {
+      return _react2['default'].createElement(Palette, {
+        name: paletteName,
+        mainColorKey: '500',
+        colors: palettes[paletteName]
+      });
+    })
   );
 };
 

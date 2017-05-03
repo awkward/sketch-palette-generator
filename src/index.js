@@ -108,10 +108,15 @@ const Document = ({ palettes }) => (
     style={{
       flexDirection: 'row',
       flexWrap: 'wrap',
-      width: 360,
     }}
   >
-    <Palette name="Red" mainColorKey="500" colors={palettes['Red']} />
+    {Object.keys(palettes).map((paletteName, i) => (
+      <Palette
+        name={paletteName}
+        mainColorKey="500"
+        colors={palettes[paletteName]}
+      />
+    ))}
   </Artboard>
 )
 
