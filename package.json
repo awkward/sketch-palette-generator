@@ -14,16 +14,17 @@
   "author": "Timon van Spronsen <timonvanspronsen@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-prettier": "^2.0.1",
-    "prettier": "^1.2.2",
-    "skpm": "^0.8.0"
+    "eslint": "^4.2.0",
+    "eslint-config-sketch": "^0.2.2",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.5.3",
+    "skpm": "^0.10.2"
   },
   "dependencies": {
     "chroma-js": "^1.2.2",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",
-    "react-sketchapp": "^0.10.0",
+    "react-sketchapp": "^0.11.5",
     "react-test-renderer": "^15.4.2"
   }
 }

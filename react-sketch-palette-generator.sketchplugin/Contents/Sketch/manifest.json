@@ -17,5 +17,8 @@
   "version": "1.0.0",
   "description": "",
   "name": "react-sketch-palette-generator",
-  "disableCocoaScriptPreprocessor": true
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Timon van Spronsen",
+  "email": "timonvanspronsen@outlook.com"
 }

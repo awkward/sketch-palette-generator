@@ -1,27 +1,33 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true
+  "extends": ["sketch"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
     },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    "plugins": [
-        "prettier"
-    ],
-    "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-                "semi": false,
-                "trailingComma": "es5",
-                "singleQuote": true
-            }
-        ]
-    }
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-undef": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false,
+        "trailingComma": "es5",
+        "singleQuote": true
+      }
+    ]
+  },
+  "globals": {
+    "NSOpenPanel": false,
+    "NSModalResponseOK": false
+  }
 }
