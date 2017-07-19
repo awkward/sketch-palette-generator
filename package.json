@@ -1,8 +1,8 @@
 {
-  "name": "react-sketch-palette-generator",
+  "name": "sketch-palette-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "react-sketch-palette-generator.sketchplugin",
+  "main": "sketch-palette-generator.sketchplugin",
   "manifest": "src/manifest.json",
   "scripts": {
     "build": "skpm build",
