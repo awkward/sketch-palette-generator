@@ -1,6 +1,6 @@
 # Sketch Palette Generator
 
-This plugin allows you to output a colour palette defined in JSON to Sketch. This plugin is heavily inspired by the [Material colour palette](https://material.io/guidelines/style/color.html#color-color-palette).
+This plugin allows you to output a colour palette defined in JSON to Sketch. This plugin is heavily inspired by the [Material Design colour palette](https://material.io/guidelines/style/color.html#color-color-palette).
 
 ![Screenshot](screenshot.png)
 
@@ -21,7 +21,7 @@ Defining a colour palette in JSON makes it easy to share colours between Sketch 
 
 2. Define your colour palette in a JSON file
 
-The example below contains two swatches with each 14 accents. A swatch can contain any number of accents, **the only requirement is that every swatch should contain an accent with the key `500`, as this one is used as the base colour.**
+The colour palette should be defined like the [Material Design colour palette](https://material.io/guidelines/style/color.html#color-color-palette). The example below contains two colour groups with each fourteen accents. A colour group can contain any number of accents, **the only requirement is that every group should contain an accent with the key `500`**, as this one is used as the primary colour.
 
 ```json
 {
