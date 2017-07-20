@@ -57,4 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
-sketch-palette-generator.sketchplugin
+*.sketchplugin
+*.sketchplugin.zip
