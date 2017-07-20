@@ -8,7 +8,7 @@ This plugin allows you to output a colour palette defined in JSON to Sketch. Thi
 
 ## Why?
 
-Defining a colour palette in JSON makes it easy to share colours between Sketch files and with developers. The JSON file can easily be converted to Sass variables using [json-sass](https://github.com/acdlite/json-sass).
+Defining a colour palette in JSON makes it easy to share colours between Sketch files and developers. The JSON file can easily be converted to Sass variables using [json-sass](https://github.com/acdlite/json-sass).
 
 ## Install
 
@@ -19,9 +19,9 @@ Defining a colour palette in JSON makes it easy to share colours between Sketch 
 
 1. Download and install the Sketch plugin
 
-2. Define your colour palette in a JSON file.
+2. Define your colour palette in a JSON file
 
-The example below contains two swatches with each 14 accents. Each swatch can contain however many accents as you wish, **the only requirement is that every swatch should contain an accent with the key `500`, as this one is used as the base colour.**
+The example below contains two swatches with each 14 accents. A swatch can contain any number of accents, **the only requirement is that every swatch should contain an accent with the key `500`, as this one is used as the base colour.**
 
 ```json
 {
