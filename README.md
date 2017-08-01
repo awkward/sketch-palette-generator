@@ -6,9 +6,9 @@ This plugin allows you to output a colour palette defined in JSON to Sketch. Thi
 
 [📹 Watch demo](https://www.youtube.com/watch?v=bbrRPYByRx8)
 
-## Why?
+## Introduction
 
-Defining a colour palette in JSON makes it easy to share colours between Sketch files and developers. The JSON file can easily be converted to Sass variables using [json-sass](https://github.com/acdlite/json-sass).
+Sharing colour palettes between different Sketch files or with developers and keeping eveything and everyone in sync can be a tedious process. That's why we at [Awkward](https://awkward.co) created Sketch Palette Generator. Sketch Palette Generator enables designers to define a colour palette in a JSON file and then easily restore them in different Sketch files. JSON files also have the inherent benefit that they can be used by developers (e.g. JSON can be converted to Sass variables using [json-sass](https://github.com/acdlite/json-sass))
 
 ## Install
 
