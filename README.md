@@ -1,8 +1,15 @@
-# Sketch Palette Generator
-
+<h1 align="center">
+  <img src="Docs/icon.png" width="106" alt="icon"><br>
+  Sketch Palette Generator<br>
+  <p align="center">
+  <a href="https://twitter.com/madeawkward">
+    <img src="https://img.shields.io/badge/contact-madeawkward-blue.svg?style=flat" alt="Contact">
+  </a>
+</h1>
+Docs/Screenshots/
 This plugin allows you to output a colour palette defined in JSON to Sketch. This plugin is heavily inspired by the [Material Design colour palette](https://material.io/guidelines/style/color.html#color-color-palette).
 
-![Screenshot](screenshot.png)
+![Screenshot](Docs/Screenshots/screenshot.png)
 
 [📹 Watch demo](https://www.youtube.com/watch?v=bbrRPYByRx8)
 
@@ -68,4 +75,4 @@ The colour palette should be defined like the [Material Design colour palette](h
 
 5. Done! You should now get something like this:
 
-![Screenshot](screenshot-2.png)
+![Screenshot](Docs/Screenshots/screenshot-2.png)
