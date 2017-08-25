@@ -5,8 +5,9 @@
   <a href="https://twitter.com/madeawkward">
     <img src="https://img.shields.io/badge/contact-madeawkward-blue.svg?style=flat" alt="Contact">
   </a>
+  </p>
 </h1>
-Docs/Screenshots/
+
 This plugin allows you to output a colour palette defined in JSON to Sketch. This plugin is heavily inspired by the [Material Design colour palette](https://material.io/guidelines/style/color.html#color-color-palette).
 
 ![Screenshot](Docs/Screenshots/screenshot.png)
