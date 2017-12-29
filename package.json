@@ -1,6 +1,6 @@
 {
   "name": "sketch-palette-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate colour palettes from JSON.",
   "main": "sketch-palette-generator.sketchplugin",
   "manifest": "src/manifest.json",
