@@ -1,4 +1,6 @@
 {
+	"name": "Sketch Palette Generator",
+	"appcast": "https://raw.githubusercontent.com/awkward/sketch-palette-generator/master/.appcast.xml",
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
 	"commands": [
