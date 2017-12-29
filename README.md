@@ -20,7 +20,7 @@ Sharing colour palettes between different Sketch files or with developers and ke
 
 ## Install
 
-1. [Download the ZIP file and unzip](https://github.com/TimonVS/sketch-palette-generator/releases/download/v0.1/sketch-palette-generator.sketchplugin.zip)
+1. [Download the ZIP file and unzip](https://github.com/awkward/sketch-palette-generator/releases/download/v1.0/sketch-palette-generator.sketchplugin.zip)
 2. Open sketch-palette-generator.sketchplugin
 
 ## How to use
