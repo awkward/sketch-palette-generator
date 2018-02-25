@@ -14,7 +14,7 @@
   "author": "Timon van Spronsen <timonvanspronsen@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "@skpm/builder": "^0.2.10",
+    "@skpm/builder": "^0.4.1",
     "eslint": "^4.2.0",
     "eslint-config-sketch": "^0.2.2",
     "eslint-plugin-prettier": "^2.1.2",

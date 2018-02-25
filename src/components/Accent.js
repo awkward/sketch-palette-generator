@@ -4,12 +4,12 @@ import { Artboard, Text, View } from 'react-sketchapp'
 import { textColor } from '../utils'
 import { Color } from '../propTypes'
 
-const Swatch = ({ name, hex, ...props }) =>
+const Accent = ({ name, hex, ...props }) => (
   <View
-    name={`Swatch ${name}`}
+    name={`Accent ${name}`}
     style={{
       height: 50,
-      width: 360,
+      width: '100%',
       backgroundColor: hex,
       padding: 8,
       flexDirection: 'row',
@@ -20,21 +20,19 @@ const Swatch = ({ name, hex, ...props }) =>
     <View
       style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}
     >
-      <Text
-        name="Swatch Name"
-        style={{ color: textColor(hex), fontWeight: '600' }}
-      >
+      <Text name="Shade" style={{ color: textColor(hex), fontWeight: '600' }}>
         {name}
       </Text>
       <Text
-        name="Swatch Hex"
+        name="Color"
         style={{ color: textColor(hex), textAlign: 'right', fontWeight: '600' }}
       >
         {hex}
       </Text>
     </View>
   </View>
+)
 
-Swatch.propTypes = Color
+Accent.propTypes = Color
 
-export default Swatch
+export default Accent
