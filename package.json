@@ -21,6 +21,7 @@
     "prettier": "^1.5.3"
   },
   "dependencies": {
+    "@skpm/fs": "^0.1.1",
     "chroma-js": "^1.2.2",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",

@@ -3,14 +3,15 @@ import PropTypes from 'prop-types'
 import { render, Artboard, Text, View } from 'react-sketchapp'
 import chroma from 'chroma-js'
 import { Document } from './components'
+import fs from '@skpm/fs'
 
 function parseJsonPalette(filePath, cb) {
   try {
-    const str = NSString.stringWithContentsOfFile(filePath)
+    const str = fs.readFileSync(filePath, 'utf8')
     const result = JSON.parse(str)
     cb(null, result)
-  } catch (e) {
-    cb('Error parsing JSON')
+  } catch (error) {
+    cb(error, null)
   }
 }
 
